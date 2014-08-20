@@ -1,0 +1,132 @@
+/** {
+	border: 1px solid red;
+}*/
+
+body {
+	margin: 0;
+	background-color: #000000;
+}
+
+/*#contain-canvas {
+	background-color: red;
+	width: 70rem;
+	margin: auto 0;
+}*/
+
+canvas {
+	position: absolute;
+	/* half is -1025 */
+	margin-left: -1366px;
+	left: 66%;
+	display: block;
+}
+
+.main-container {
+	position: absolute;
+	width: 100%;
+}
+
+
+.subheading {
+	font-size: 2rem;
+	font-family: "Helvetica Neue";
+	text-align: center;
+}
+
+
+.firstname {
+	font-family: "Helvetica Neue";
+	font-weight: 500;
+	color: white;
+	font-size: 5rem;
+	line-height: 4.5rem;
+}
+
+
+.lastname {
+	font-family: "Helvetica Neue";
+	font-weight: 100;
+	color: white;
+	font-size: 5rem;
+	line-height: 4.5rem;
+}
+
+
+
+.intro {
+	color: #FFFFFF;
+	height: 30rem;
+	max-width: 40rem;
+}
+
+.intro .menu {
+	margin-top: 8rem;
+}
+
+.intro .option {
+	font-family: "Helvetica";
+	font-size: 2.5rem;
+	text-align: center;
+	margin: 3.5rem 0;
+}
+
+.option a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.option	a:hover {  
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+
+@media (max-width: 680px) {
+	.intro {
+		height: 30rem;
+	}
+
+	.intro .menu {
+		margin-top: 0;
+	}
+
+	.lastname span {
+		display: block;
+	}
+
+}
+
+.projects {
+	background-color: #FFFFFF;
+	color: #000000;
+	min-height: 25rem;
+	width: 100%;
+}
+
+
+
+.about {
+	color: #FFFFFF;
+	min-height: 25rem;
+}
+
+.about p {
+	font-family: sans-serif;
+}
+
+
+
+.contact {
+	background-color: #FFFFFF ;
+	color: #000000;
+	min-height: 25rem;
+}
+
+.contact p {
+	font-family: "Helvetica";
+}
+
+.contact .info {
+	margin-right: 1rem;
+}
+
